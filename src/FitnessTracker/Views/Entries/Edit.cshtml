@@ -1,6 +1,11 @@
-﻿
+﻿@model FitnessTracker.Models.Entry
+
+@using FitnessTracker.Models
+
 @{
     ViewBag.Title = "Edit Entry";
 }
 
 <h2>@ViewBag.Title</h2>
+
+@Html.Partial("_EntryForm")
